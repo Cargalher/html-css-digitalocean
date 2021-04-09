@@ -26,6 +26,15 @@ height: 500px;
     background-color: rgb(194, 163, 206);
     height: 500px;
 }
+/* utility */
+.lt_white{
+    color:white;
+}
+lt_blue{
+    color:blue;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<< header>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* Nav Bar */
 #nav_bar{
    
     background-color: white;
@@ -36,7 +45,7 @@ height: 500px;
 }
 .logo{
     width: 25%;
-    padding:10px;
+    padding:10px 0;
 }
 .menu_center{
     width:37.5%;
@@ -45,9 +54,9 @@ height: 500px;
     width:37.5%;
 }
 .logo > img{
-  width:50%;
+    width:50%;
 }
-#header_main{
+#site_header{
     background-image:url(./img/bg-banner-home.jpg);
     height:400px;
 }
@@ -60,12 +69,45 @@ ul > li {
     font-size: 15px;
 }
 .btn_outline{
-border:1px solid blue;
-color:blue;
-background-color: white;
+    border:1px solid blue;
+    color:blue;
+    background-color: white;
+}
+.btn_solid{
+    border:1px solid blue;
+    color:white;
+    background-color: blue;
 }
 #nav_bar li{
     list-style: none;
     display:inline-block;
     
+}
+
+/* Info & Form */
+.header_info, .hd_form{
+    width:50%;
+}
+
+.hd_form{
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.header_main li{
+    list-style: none;
+
+}
+.btn_frm{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn_form_solid{
+    border:1px solid blue;
+    color:white;
+    background-color: blue;
+}
+.btn_form_outline{
+    box-shadow:  1px 2px 12px #c5c5c5;
 }
