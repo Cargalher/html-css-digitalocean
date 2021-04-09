@@ -6,12 +6,13 @@
 .container{
     width:80%;
     margin:auto;
+   
 }
 /* debug */
-.debug header{
-background-color: cadetblue;
-height: 500px;
-}
+/* .debug header{
+background-color: cadetblue; */
+/* height: 500px;
+} */
 .debug main{
     background-color: rgb(166, 173, 145);
     height: 1800px;
@@ -20,4 +21,15 @@ height: 500px;
 .debug footer{
     background-color: rgb(194, 163, 206);
     height: 500px;
+}
+#nav_bar{
+    height:80px;
+    background-color: bisque;
+}
+.logo{
+  width:15%;
+}
+#header_main{
+    background-image:url(./img/bg-banner-home.jpg);
+    height:400px;
 }
