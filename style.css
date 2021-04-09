@@ -1,0 +1,23 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+/* debug */
+.debug header{
+background-color: cadetblue;
+height: 500px;
+}
+.debug main{
+    background-color: rgb(166, 173, 145);
+    height: 1800px;
+        
+}
+.debug footer{
+    background-color: rgb(194, 163, 206);
+    height: 500px;
+}
