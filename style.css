@@ -105,7 +105,9 @@ ul > li {
     display:inline-block;
     
 }
-
+.menu_right > ul {
+    text-align: center;
+}
 /* Info & Form */
 
 .header_info{
@@ -177,5 +179,12 @@ li>input{
     padding-bottom: 15px;
 }
 
+/* Media Query */
+/* phone */
+@media screen and (max-width: 767px){
 
+}
+/* tablet */
+@media screen and (min-width:768px) and (max-width:991px) {
 
+}
