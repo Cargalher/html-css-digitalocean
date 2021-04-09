@@ -10,6 +10,7 @@
 }
 a{
     text-decoration: none;
+    color: black;
 }
 /* debug */
 .debug header{
@@ -25,10 +26,10 @@ height: 500px;
     background-color: rgb(194, 163, 206);
     height: 500px;
 }
-/* #nav_bar{
-    height:80px;
-    background-color: bisque;
-} */
+#nav_bar{
+   
+    background-color: white;
+} 
 .container-flex{
     display: flex;
     justify-content: 
@@ -59,8 +60,8 @@ border-radius: 5px;
 font-size: 10px;
 }
 .btn_outline{
-border:1px solid black;
-color:black;
+border:1px solid blue;
+color:blue;
 background-color: white;
 }
 #nav_bar li{
