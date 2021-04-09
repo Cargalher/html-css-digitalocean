@@ -248,5 +248,11 @@ li>input{
     border-left: 1px solid black;
 }
 .col_sect_two{
-    
+    margin-top: 60px;
+    margin-left: 139px;
+}
+/* SECTION 3*/
+.section_three{
+    height:700px;
+    background-color: #F3F5F9;
 }
