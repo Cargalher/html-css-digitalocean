@@ -12,6 +12,9 @@ a{
     text-decoration: none;
     color: black;
 }
+body{
+    font-family: 'Inter-Medium','Helvetica','san-serif';
+}
 /* debug */
 .debug header{
 background-color: cadetblue; 
@@ -41,7 +44,7 @@ lt_blue{
 } 
 .container-flex{
     display: flex;
-    justify-content: 
+    align-items: flex-end;
 }
 .logo{
     width: 25%;
@@ -58,7 +61,7 @@ lt_blue{
 }
 #site_header{
     background-image:url(./img/bg-banner-home.jpg);
-    height:400px;
+    height:440px;
 }
 ul > li {
     padding:10px;
@@ -88,18 +91,27 @@ ul > li {
 .header_info, .hd_form{
     width:50%;
 }
-
+.title_header{
+    font-size: 46px;
+    width: 75%;
+}
+.txt_header{
+    width: 95%;
+    font-size: 20px;
+    margin-top: 15px;
+}
 .hd_form{
     border:1px solid white;
     border-radius: 5px;
     background-color: white;
+    padding: 30px;
 }
 .header_main li{
     list-style: none;
 
 }
 .btn_frm{
-    padding: 5px 10px;
+    padding: 5px 180px;
     border-radius: 5px;
     font-size: 15px;
 }
@@ -110,4 +122,14 @@ ul > li {
 }
 .btn_form_outline{
     box-shadow:  1px 2px 12px #c5c5c5;
+    background-image: url(./img/google-icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.hd_form > a{
+    color: blue;
+    text-decoration: underline;
+}
+li>input{
+    padding: 5px 162px;
 }
