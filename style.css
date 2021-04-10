@@ -55,6 +55,7 @@ lt_blue{
 .justify_center{
     justify-content: center;
 }
+
 /*<<<<<<<<<<<<<<<<<<<<<<<<< header>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* Nav Bar */
 #nav_bar{
@@ -208,7 +209,21 @@ li>input{
 
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MAIN>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-
+/* main utilities */
+.blue_title{
+    color: #1B315E;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.mgt_60{
+    margin-top: 60px;
+}
+.main_text{
+    font-size: 19px;
+    color: #1B315E;
+    margin-bottom: 50px;
+}
 /* SECTION 1 */
 .section_one{
     height:200px;
@@ -230,17 +245,8 @@ li>input{
     height:500px;
     background-color: white;
 }
-.tl_sect_two{
-    color: #1B315E;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 15px;
-}
-.txt_sect_two{
-    font-size: 20px;
-    color: #1B315E;
-}
+
+
 .section_two ul{
     list-style: none;
     margin-top: 70px;
@@ -253,6 +259,32 @@ li>input{
 }
 /* SECTION 3*/
 .section_three{
-    height:700px;
+    height:height: 958px;
     background-color: #F3F5F9;
+}
+.slide_img {
+    width: 540px;
+    margin-bottom: 30px;
+}
+.blue_around{
+    color: #006AFF;
+    margin-top: 15px;
+}
+.blue_circle{
+    /* color: #006AFF; */
+    background-color: #006AFF;
+    border-radius: 50%;
+}
+/* can not see the icons !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.slide_img::before{
+    /* content: "";
+    display: block; */
+    background-image: url(./img/chevron-left-solid.svg);
+
+}
+.slide_img::after{
+    /* content: "";
+    display: block; */
+    background-image: url(./img/chevron-right-solid.svg);
+
 }
