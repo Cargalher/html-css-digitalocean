@@ -223,7 +223,12 @@ li>input{
     font-size: 19px;
     color: #1B315E;
     margin-bottom: 50px;
+    text-align: center;
 }
+.mgtb_20{
+    margin: 20px 0;
+}
+
 /* SECTION 1 */
 .section_one{
     height:200px;
@@ -249,12 +254,11 @@ li>input{
 
 .section_two ul{
     list-style: none;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-left: 50px;
     border-left: 1px solid black;
 }
 .col_sect_two{
-    margin-top: 60px;
     margin-left: 139px;
 }
 /* SECTION 3*/
@@ -269,6 +273,7 @@ li>input{
 .blue_around{
     color: #006AFF;
     margin-top: 15px;
+    margin-bottom: 80px;
 }
 .blue_circle{
     /* color: #006AFF; */
