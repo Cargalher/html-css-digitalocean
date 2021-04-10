@@ -27,9 +27,14 @@ height: 500px;
 }
 .debug footer{
     background-color: rgb(194, 163, 206);
-    height: 500px;
+    
 }
 /* utility */
+.blue_link{ 
+    color: #378AFF;
+    font-size: 15px;
+    font-weight: 700;
+}
 .lt_white{
     color:white;
 }
@@ -55,7 +60,9 @@ lt_blue{
 .justify_center{
     justify-content: center;
 }
-
+.justify_between{
+    justify-content: space-between;
+}
 /*<<<<<<<<<<<<<<<<<<<<<<<<< header>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* Nav Bar */
 #nav_bar{
@@ -219,6 +226,7 @@ li>input{
 .little_tl{
     font-size: 20px;
     color: #1B315E;
+    margin-bottom: 10px;
 }
 .mgt_60{
     margin-top: 60px;
@@ -232,10 +240,13 @@ li>input{
 .little_txt{
     font-size: 15px;
     color: #1B315E;
+    margin-bottom: 15px;
 }
+
 .mgtb_20{
     margin: 20px 0;
 }
+
 
 /* SECTION 1 */
 .section_one{
@@ -248,11 +259,7 @@ li>input{
     font-size: 18px;
     text-transform: uppercase;
 }
-.section_one .cust_stories_link{
-    color: #378AFF;
-    font-size: 15px;
-    font-weight: 700;
-}
+
 /* SECTION 2 */
 .section_two{
     height:500px;
@@ -300,4 +307,19 @@ li>input{
     display: block; */
     background-image: url(./img/chevron-right-solid.svg);
 
+}
+/* SECTION 4*/
+.section_four{
+    height:300px;;
+}
+.col_wdth{
+    width: 33.33%;
+}
+/* SECTION 5*/
+.section_5{
+    height:300px;
+    background-color: #0045C3;
+}
+.blue_col{
+    font-size: 12px;
 }
