@@ -297,14 +297,14 @@ li>input{
 }
 /* can not see the icons !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .slide_img::before{
-    /* content: "";
-    display: block; */
+    
+    display: inline-block;
     background-image: url(./img/chevron-left-solid.svg);
 
 }
 .slide_img::after{
-    /* content: "";
-    display: block; */
+    
+    display: inline-block;
     background-image: url(./img/chevron-right-solid.svg);
 
 }
@@ -322,6 +322,7 @@ li>input{
 }
 .blue_col{
     font-size: 12px;
+    margin: 50px;
 }
 .white_title{
     color: white;
@@ -331,6 +332,47 @@ li>input{
     text-align: center;
 }
 .inside_table{
-    line-height: 30px;
+    line-height: 35px;
     color: white;
 }
+.fluor{
+    color: #00BECD;
+}
+.border_bottom{
+    border-bottom: 1px solid white;
+}
+.pd-15{
+    padding: 15px;
+}
+/* section 6 */
+.section_six{
+    height:height: 958px;
+    background-color: #F3F5F9;
+}
+.white_box{
+    border:1px solid white;
+    background-color: white;
+    width: 43%;
+    padding: 67px;
+}
+.rockerbox_logo{
+    height: 50px;
+}
+.dp-block-cntr{
+    display: block;
+    text-align: center;
+}
+/* can not see the icons !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.white_box::before{
+   
+    display: inline-block;
+    background-image: url(./img/chevron-left-solid.svg);
+
+}
+.white_box::after{
+    
+    display: inline-block;
+    background-image: url(./img/chevron-left-solid.svg);
+
+}
+/* section 6 */
