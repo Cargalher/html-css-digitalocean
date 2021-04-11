@@ -471,3 +471,13 @@ color: #7A859D;
     font-size: 17px;
     font-weight: 600;
 }
+.chat_txt::after{
+    content: "";
+    position: absolute;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid white;
+    transform: rotate(90deg);
+    right: -18px;
+    top: 42px;
+}
