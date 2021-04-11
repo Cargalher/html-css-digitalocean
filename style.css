@@ -398,12 +398,12 @@ li>input{
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Footer>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 #site_footer{
-    height: 578px;
+    height:500px;
     background-color: #031C4E;
 }
-.footer_lft, a{
+/* .footer_lft, a{
     color:white;
-}
+} */
 .dsp_block{
     display: block;
 }
@@ -414,9 +414,5 @@ li>input{
 #site_footer li{
     list-style: none;
     color:white;
-    font-size: 16px;
-}
-.xs_tl-footer{
-    color: white;
-    font-size: 17px;
+    
 }
