@@ -39,7 +39,7 @@ body{
 .lt_white{
     color:white;
 }
-lt_blue{
+.lt_blue{
     color:blue;
 }
 .align_end{
@@ -55,6 +55,9 @@ lt_blue{
     display: flex;
     
 }
+.justify_center{
+    justify-content: center;
+}
 .justify_flex_end{
     justify-content: flex-end;
 }
@@ -63,6 +66,9 @@ lt_blue{
 }
 .justify_center{
     justify-content: center;
+}
+.justify_flex_start{
+    justify-content: flex-start;
 }
 .justify_between{
     justify-content: space-between;
@@ -98,6 +104,9 @@ lt_blue{
 }
 #site_header{
     background-image:url(./img/bg-banner-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     /* height:490px; */
 }
 ul > li {
@@ -200,9 +209,10 @@ li>input{
 /* Media Query */
 /* phone */
 @media screen and (max-width: 767px){
-    .logo{
+    /* .logo{
         width: 50%;
-    }
+    } */
+    
     .menu_center, .menu_right{
         display: none;
     }
@@ -368,6 +378,7 @@ li>input{
     display: block;
     text-align: center;
 }
+
 /* can not see the icons !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .white_box::before{
    
