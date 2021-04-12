@@ -485,8 +485,6 @@ li>input{
 /* phone */
 
 @media screen and (max-width: 767px){
-     
-    
     .menu_center, .menu_right{
         display: none;
     }
@@ -499,7 +497,13 @@ li>input{
 /* tablet */
 
 @media screen and (min-width:768px) and (max-width:991px) {
-
+    .menu_center, .menu_right{
+        display: none;
+    }
+    .bars{
+        display:inline-block;
+        color:blue
+    }
 }
 
 
