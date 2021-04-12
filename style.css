@@ -498,9 +498,8 @@ div > input{
         .block{
             display: block;
         }
-
-
-
+/*  MAIN_Section_1 */
+     
 
 
 
@@ -520,6 +519,12 @@ div > input{
 
     /*  HEADER_main_header */
 
+    
+
+    /* MAIN_sECTION_1 */
+    .company_logo{
+        height:50px;
+    }
 
 
 
