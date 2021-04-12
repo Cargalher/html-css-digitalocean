@@ -317,7 +317,7 @@ div > input{
 }
 /* SECTION 4*/
 .section_four{
-   padding: 50px;
+   padding: 25px;
 }
 .col_wdth{
     width: 30.33%;
@@ -363,7 +363,11 @@ div > input{
     padding: 67px;
     margin-bottom: 25px;
     text-align: center;
+    width: 65%;
 }
+
+
+
 .rockerbox_logo{
     height: 50px;
 }
@@ -574,6 +578,22 @@ div > input{
             .blue_col{
                 font-size: 11px;
             }
+ /* MAIN SECTION 6 */
+            .rockerbox_logo {
+                height: 20px;
+            }
+            .rckr_box_xs {
+                font-size: 15px;
+                color: #1B315E;
+                line-height: 25px;
+                text-align: center;
+            }
+
+            .white_box {
+                padding: 10px;
+            }
+
+
 
 }
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -622,6 +642,15 @@ div > input{
         .section_5 {
         height: 660px;
         }
+/* MAIN SECTION 6 */
+        .white_box{
+            width: 80%;
+            padding: 30px;
+        }
+        .rockerbox_logo {
+            height: 35px;
+        }
+
 
 
 }
