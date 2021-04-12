@@ -88,9 +88,11 @@ body{
 }
 .menu_center{
     width:37.5%;
+    font-size: 13px;
 }
 .menu_right{
     width:37.5%;
+    font-size: 14px;
 }
 .bars{
     display: none;
@@ -106,7 +108,7 @@ body{
     /* height:490px; */
 }
 ul > li {
-    padding:10px;
+    padding:4px;
 }
 .btn{
     padding: 5px 10px;
@@ -140,13 +142,13 @@ ul > li {
     width: 40%;
 }
 .title_header{
-    font-size: 55px;
-    width: 75%;
+    font-size: 45px;
 }
 .txt_header{
     width: 79%;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 15px;
+    line-height: 25px;
 }
 .hd_form{
     border:1px solid white;
@@ -167,13 +169,14 @@ font-size: 26px;
     font-size: 24px;
     font-weight: 700;
 }
-.header_main li{
-    list-style: none;
-}
+
 .btn_frm{
-    padding: 7px 124px;
+    display: block;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 13px;
+    padding: 5px;
+    text-align: center;
+    margin: 4px 0;
 }
 .btn_form_solid{
     border:1px solid #579AFF;
@@ -191,15 +194,15 @@ font-size: 26px;
     color: blue;
     text-decoration: underline;
 }
-li>input{
+div > input{
     border: 1px solid #0000000f;
     border-radius: 5px;
-    font-size: 13px;
+    font-size: 15px;
     text-align: left;
-    padding-right: 205px;
-    padding-left: 13px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 5px;
+    margin: 4px 0;
+    width: 100%;
+    
 }
 
 
@@ -488,6 +491,7 @@ li>input{
     .flex-wrap{
         flex-wrap: wrap;
     }
+
 }
 
 /* tablet */
@@ -509,14 +513,15 @@ li>input{
 
 @media screen and (max-width: 767px){
     .hd_form {
-        width: 0;
+        width: 100%;
     }
     .header_info {
-        width: 0;
+        width: 100%;
     }
     .block{
         display: block;
     }
+}
 /* tablet */
 
 @media screen and (min-width:768px) and (max-width:991px) {
