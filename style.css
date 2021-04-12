@@ -323,7 +323,8 @@ div > input{
    padding: 50px;
 }
 .col_wdth{
-    width: 33.33%;
+    width: 30.33%;
+    margin: 0 10px;
 }
 /* SECTION 5*/
 .section_5{
@@ -559,6 +560,10 @@ div > input{
             color: none;
             display: none;
             }
+            /* MAIN SECTION_4 */
+            .col_wdth {
+                width: 100%;
+            }
 
 }
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -597,7 +602,11 @@ div > input{
             width: 456px;
         }
 
-
+/* MAIN SECTION_4 */
+        .col_wdth {
+            width: 27.33%;
+            margin: 0px 15px;
+        }
 
 }
 
