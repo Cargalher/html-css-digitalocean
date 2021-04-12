@@ -212,7 +212,7 @@ div > input{
     color: #1B315E;
     font-size: 30px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 55px;
 }
 .little_tl{
     font-size: 20px;
@@ -348,16 +348,18 @@ div > input{
 .white_box{
     border:1px solid white;
     background-color: white;
-    width: 43%;
     padding: 67px;
     margin-bottom: 25px;
+    text-align: center;
 }
 .rockerbox_logo{
     height: 50px;
 }
+
 .dp-block-cntr{
     display: block;
     text-align: center;
+    margin-top: 20px;
 }
 
 
