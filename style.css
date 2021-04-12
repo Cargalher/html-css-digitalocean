@@ -279,6 +279,7 @@ div > input{
 }
 .col_sect_two{
     margin-left: 139px;
+    margin-bottom: 40px;
 }
 /* SECTION 3*/
 .section_three{
@@ -312,7 +313,7 @@ div > input{
 }
 /* SECTION 5*/
 .section_5{
-    height:380px;
+    height:400px;
     background-color: #0045C3;
 }
 .blue_col{
