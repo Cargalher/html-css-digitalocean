@@ -74,6 +74,7 @@ body{
 } 
 .container-flex{
     display: flex;
+    flex-wrap: wrap;
     
 }
 .align_end{
@@ -255,7 +256,7 @@ div > input{
 
 /* SECTION 1 */
 .section_one{
-    height:200px;
+    
     background-color: #F3F5F9;
 }
 .tl_sect_one{
@@ -489,6 +490,9 @@ div > input{
         flex-wrap: wrap;
     }
 /*  HEADER_main_header */
+        .header_main{
+            padding-bottom: 20px;
+        }
         .hd_form {
             width: 100%;
         }
@@ -500,9 +504,9 @@ div > input{
         }
 /*  MAIN_Section_1 */
      
-
-
-
+        .section_one{
+            padding-bottom: 20px;
+        }
 }
 
 
