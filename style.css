@@ -543,6 +543,22 @@ div > input{
         .section_two ul{
             margin-left: 0;
         }
+/* Main section 3 */
+        .slide_img{
+            width: 100%;
+        }
+        .arrow_lft {
+            margin: 0 ;
+            font-size: 0;
+            color: none;
+            display: none;
+        }
+           .arrow_rgt{
+            margin: 0;
+            font-size: 0;
+            color: none;
+            display: none;
+            }
 
 }
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -564,17 +580,23 @@ div > input{
         height: 53px;
         margin: 5px;
     }
-/* Main section 2 */
-.col_lft_st2 {
-    /* width: 10%; */
-    margin-top: 40px;
-}
-.col_sect_two {
-   
-    margin-left: 40px;
-    margin-right: 24px;
+    /* Main section 2 */
+    .col_lft_st2 {
+        /* width: 10%; */
+        margin-top: 40px;
+    }
+    .col_sect_two {
     
-}
+        margin-left: 40px;
+        margin-right: 24px;
+        
+    }
+ /* Main section 3 */
+
+        .slide_img{
+            width: 456px;
+        }
+
 
 
 }
