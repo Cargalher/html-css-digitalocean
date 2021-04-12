@@ -18,10 +18,7 @@ body{
 }
 /* debug */
 
-.debug footer{
-    background-color: rgb(194, 163, 206);
-    
-}
+
 /* utility */
 .blue_link{ 
     color: #378AFF;
@@ -110,7 +107,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    /* height:490px; */
+    
 }
 ul > li {
     padding:4px;
@@ -328,7 +325,7 @@ div > input{
 }
 /* SECTION 5*/
 .section_5{
-    height:400px;
+    height: 450px;
     background-color: #0045C3;
 }
 .blue_col{
@@ -528,6 +525,9 @@ div > input{
         .company_logo{
             height: 50px;
         }
+        .tl_sect_one{
+            text-align: center;
+        }
 
 /* MAIN_Section_2 */
         .col_lft_st2 {
@@ -563,6 +563,16 @@ div > input{
             /* MAIN SECTION_4 */
             .col_wdth {
                 width: 100%;
+            }
+/* MAIN SECTION 5 */
+            .section_5{
+                height: 720px;
+            }
+            .inside_table{
+                line-height:35px;
+            }
+            .blue_col{
+                font-size: 11px;
             }
 
 }
@@ -607,6 +617,12 @@ div > input{
             width: 27.33%;
             margin: 0px 15px;
         }
+
+/* MAIN SECTION 5 */
+        .section_5 {
+        height: 660px;
+        }
+
 
 }
 
