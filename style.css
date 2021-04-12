@@ -46,6 +46,7 @@ body{
 
 .container-flex{
     display: flex;
+    flex-wrap: wrap;
     
 }
 .justify_center{
@@ -65,6 +66,9 @@ body{
 }
 .justify_between{
     justify-content: space-between;
+}
+.justify_around{
+    justify-content: space-around;
 }
 /*<<<<<<<<<<<<<<<<<<<<<<<<< header>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* Nav Bar */
@@ -256,7 +260,7 @@ div > input{
 
 /* SECTION 1 */
 .section_one{
-    
+    padding-bottom: 20px;
     background-color: #F3F5F9;
 }
 .tl_sect_one{
@@ -265,22 +269,31 @@ div > input{
     font-size: 18px;
     text-transform: uppercase;
 }
-
+.company_logo{
+    height: 70px;
+    margin: 5px;
+}
 /* SECTION 2 */
 .section_two{
     background-color: white;
 }
-
+.col_lft_st2{
+    width:20%;
+    margin-top: 40px;
+}
 
 .section_two ul{
     list-style: none;
-    margin-top: 20px;
     margin-left: 50px;
     border-left: 1px solid black;
+    line-height: 36px;
 }
 .col_sect_two{
-    margin-left: 139px;
+    width: 28%;
     margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 50px;
+    padding: 10px;
 }
 /* SECTION 3*/
 .section_three{
@@ -502,15 +515,36 @@ div > input{
         .block{
             display: block;
         }
+        .title_header {
+            font-size: 45px;
+            margin-top: 35px;
+        }
 /*  MAIN_Section_1 */
      
         .section_one{
             padding-bottom: 20px;
         }
+        .company_logo{
+            height: 50px;
+        }
+
+/* MAIN_Section_2 */
+        .col_lft_st2 {
+        width: 100%;
+        margin-top: 40px;
+        }
+        .col_sect_two {
+            width: 100%;
+            margin-bottom: 40px;
+            padding: 10px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .section_two ul{
+            margin-left: 0;
+        }
+
 }
-
-
-
 @media screen and (min-width:768px) and (max-width:991px) {
     /*  HEADER_nav_bar */
     .menu_center, .menu_right{
@@ -526,11 +560,21 @@ div > input{
     
 
     /* MAIN_sECTION_1 */
-    .company_logo{
-        height:50px;
+    .company_logo {
+        height: 53px;
+        margin: 5px;
     }
-
-
+/* Main section 2 */
+.col_lft_st2 {
+    /* width: 10%; */
+    margin-top: 40px;
+}
+.col_sect_two {
+   
+    margin-left: 40px;
+    margin-right: 24px;
+    
+}
 
 
 }
