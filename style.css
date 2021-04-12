@@ -51,6 +51,7 @@ body{
 .align_flx_start{
     align-items: flex-start;
 }
+
 .container-flex{
     display: flex;
     
@@ -242,13 +243,14 @@ li>input{
     color: #1B315E;
     margin-bottom: 10px;
 }
+
 .mgt_60{
     margin-top: 60px;
 }
 .main_text{
     font-size: 19px;
     color: #1B315E;
-    margin-bottom: 50px;
+    line-height: 30px;
     text-align: center;
 }
 .little_txt{
@@ -264,6 +266,17 @@ li>input{
 .pd-45{
     padding: 45px;
 }
+.arrow_lft{
+    margin: 0 10px;
+    font-size: 30px;
+    color: #6F7B97;
+}
+.arrow_rgt{
+    margin: 0 10px;
+    font-size: 30px;
+    color:#1B315E;
+}
+
 /* SECTION 1 */
 .section_one{
     height:200px;
@@ -294,12 +307,13 @@ li>input{
 }
 /* SECTION 3*/
 .section_three{
-    height:height: 958px;
+   padding:50px;
     background-color: #F3F5F9;
 }
 .slide_img {
     width: 540px;
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 .blue_around{
     color: #006AFF;
@@ -311,22 +325,12 @@ li>input{
     background-color: #006AFF;
     border-radius: 50%;
 }
-/* can not see the icons !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.slide_img::before{
-    
-    display: inline-block;
-    background-image: url(./img/chevron-left-solid.svg);
-
-}
-.slide_img::after{
-    
-    display: inline-block;
-    background-image: url(./img/chevron-right-solid.svg);
-
+.d_block{
+    display: block;
 }
 /* SECTION 4*/
 .section_four{
-    height:300px;;
+   padding: 50px;
 }
 .col_wdth{
     width: 33.33%;
@@ -362,7 +366,7 @@ li>input{
 }
 /* section 6 */
 .section_six{
-    height:height: 958px;
+   padding: 50px;
     background-color: #F3F5F9;
 }
 .white_box{
@@ -370,6 +374,7 @@ li>input{
     background-color: white;
     width: 43%;
     padding: 67px;
+    margin-bottom: 25px;
 }
 .rockerbox_logo{
     height: 50px;
@@ -379,19 +384,7 @@ li>input{
     text-align: center;
 }
 
-/* can not see the icons !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.white_box::before{
-   
-    display: inline-block;
-    background-image: url(./img/chevron-left-solid.svg);
 
-}
-.white_box::after{
-    
-    display: inline-block;
-    background-image: url(./img/chevron-left-solid.svg);
-
-}
 /* section 7 */
 .section_seven{
     
