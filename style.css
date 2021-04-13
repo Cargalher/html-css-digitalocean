@@ -603,7 +603,27 @@ div > input{
             .w-100-tab{
                 width: 100%;
             }
-
+            .chat_txt {
+                position: absolute;
+                right: 120px;
+                bottom: 17px;
+                border: 1px solid white;
+                background-color: white;
+                border-radius: 10px;
+                padding: 10px;
+                width: 35%;
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 600;
+            }
+            .shark {
+                position: absolute;
+                right: 35px;
+                bottom: 33px;
+                border: 1px solid #006AFF;
+                background-color: #006AFF;
+                border-radius: 5px;
+            }
 
 }
 @media screen and (min-width:768px) and (max-width:991px) {
